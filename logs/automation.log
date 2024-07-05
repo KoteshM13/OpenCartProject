@@ -1,0 +1,7 @@
+2024-07-03 10:37:18 INFO  RegisterationDemo:16 - *** Starting test case execution ***
+2024-07-03 10:37:18 INFO  RegisterationDemo:19 - Clicking on account
+2024-07-03 10:37:19 INFO  RegisterationDemo:21 - Clicking on registeration
+2024-07-03 10:37:21 INFO  RegisterationDemo:41 - Registeration done successfully
+2024-07-03 10:37:21 INFO  RegisterationDemo:50 - ***Finished testcase execution***
+2024-07-03 10:37:25 INFO  LoginDemo:16 - ***Starting execution of Login page***
+2024-07-03 10:37:26 INFO  LoginDemo:36 - ***Execution completed for Login page***

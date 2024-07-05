@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-03T10:37:11 IST" name="Suite" finished-at="2024-07-03T10:37:26 IST" duration-ms="15036">
+    <groups>
+      <group name="Master">
+        <method signature="LoginDemo.loginpage()[pri:0, instance:testCases.LoginDemo@1a942c18]" name="loginpage" class="testCases.LoginDemo"/>
+        <method signature="RegisterationDemo.verify_registeration()[pri:0, instance:testCases.RegisterationDemo@1c7696c6]" name="verify_registeration" class="testCases.RegisterationDemo"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="LoginDemo.loginpage()[pri:0, instance:testCases.LoginDemo@1a942c18]" name="loginpage" class="testCases.LoginDemo"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="RegisterationDemo.verify_registeration()[pri:0, instance:testCases.RegisterationDemo@1c7696c6]" name="verify_registeration" class="testCases.RegisterationDemo"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-07-03T10:37:11 IST" name="Test" finished-at="2024-07-03T10:37:26 IST" duration-ms="15036">
+      <class name="testCases.RegisterationDemo">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.RegisterationDemo@1c7696c6]" started-at="2024-07-03T10:37:11 IST" name="setup" finished-at="2024-07-03T10:37:18 IST" duration-ms="6649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_registeration()[pri:0, instance:testCases.RegisterationDemo@1c7696c6]" started-at="2024-07-03T10:37:18 IST" name="verify_registeration" finished-at="2024-07-03T10:37:21 IST" duration-ms="2836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_registeration -->
+        <test-method is-config="true" signature="setDown()[pri:0, instance:testCases.RegisterationDemo@1c7696c6]" started-at="2024-07-03T10:37:21 IST" name="setDown" finished-at="2024-07-03T10:37:21 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- testCases.RegisterationDemo -->
+      <class name="testCases.LoginDemo">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginDemo@1a942c18]" started-at="2024-07-03T10:37:21 IST" name="setup" finished-at="2024-07-03T10:37:25 IST" duration-ms="3387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginpage()[pri:0, instance:testCases.LoginDemo@1a942c18]" started-at="2024-07-03T10:37:25 IST" name="loginpage" finished-at="2024-07-03T10:37:26 IST" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method is-config="true" signature="setDown()[pri:0, instance:testCases.LoginDemo@1a942c18]" started-at="2024-07-03T10:37:26 IST" name="setDown" finished-at="2024-07-03T10:37:26 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- testCases.LoginDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
